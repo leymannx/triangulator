@@ -1,0 +1,35 @@
+{
+  "name": "triangulator",
+  "version": "0.0.1",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leymannx/triangulator.git"
+  },
+  "keywords": [
+    "Electron",
+    "Triangulator",
+    "Delaunay",
+    "image",
+    "svg"
+  ],
+  "author": "Norman Kämper-Leymann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leymannx/triangulator/issues"
+  },
+  "homepage": "https://github.com/leymannx/triangulator#readme",
+  "devDependencies": {
+    "bourbon-neat": "^2.0.0",
+    "electron": "^1.4.15",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
